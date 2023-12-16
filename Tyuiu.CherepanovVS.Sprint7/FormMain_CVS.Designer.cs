@@ -36,14 +36,12 @@ namespace Tyuiu.CherepanovVS.Sprint7
             this.groupBoxInfo_CVS = new System.Windows.Forms.GroupBox();
             this.textBoxInputNameDivicion_CVS = new System.Windows.Forms.TextBox();
             this.textBoxNameDivision_CVS = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panelButton_CVS.SuspendLayout();
             this.groupBoxInfo_CVS.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelButton_CVS
             // 
-            this.panelButton_CVS.Controls.Add(this.button1);
             this.panelButton_CVS.Controls.Add(this.buttonInfo_CVS);
             this.panelButton_CVS.Controls.Add(this.buttonOpenFile_CVS);
             this.panelButton_CVS.Dock = System.Windows.Forms.DockStyle.Top;
@@ -100,15 +98,6 @@ namespace Tyuiu.CherepanovVS.Sprint7
             this.textBoxNameDivision_CVS.TabIndex = 0;
             this.textBoxNameDivision_CVS.Text = "Наименование подразделения";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(167, 50);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // FormMain_CVS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -133,7 +122,6 @@ namespace Tyuiu.CherepanovVS.Sprint7
         private System.Windows.Forms.GroupBox groupBoxInfo_CVS;
         private System.Windows.Forms.TextBox textBoxInputNameDivicion_CVS;
         private System.Windows.Forms.TextBox textBoxNameDivision_CVS;
-        private System.Windows.Forms.Button button1;
     }
 }
 
