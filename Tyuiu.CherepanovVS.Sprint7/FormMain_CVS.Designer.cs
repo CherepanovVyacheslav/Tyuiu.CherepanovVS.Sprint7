@@ -32,84 +32,70 @@ namespace Tyuiu.CherepanovVS.Sprint7
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_CVS));
             this.panelButton_CVS = new System.Windows.Forms.Panel();
             this.buttonInfo_CVS = new System.Windows.Forms.Button();
-            this.buttonOpenFile_CVS = new System.Windows.Forms.Button();
-            this.groupBoxInfo_CVS = new System.Windows.Forms.GroupBox();
-            this.textBoxInputNameDivicion_CVS = new System.Windows.Forms.TextBox();
-            this.textBoxNameDivision_CVS = new System.Windows.Forms.TextBox();
+            this.buttonMenu_CVS = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelButton_CVS.SuspendLayout();
-            this.groupBoxInfo_CVS.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelButton_CVS
             // 
+            this.panelButton_CVS.BackColor = System.Drawing.Color.PapayaWhip;
             this.panelButton_CVS.Controls.Add(this.buttonInfo_CVS);
-            this.panelButton_CVS.Controls.Add(this.buttonOpenFile_CVS);
-            this.panelButton_CVS.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelButton_CVS.Controls.Add(this.buttonMenu_CVS);
+            this.panelButton_CVS.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelButton_CVS.Location = new System.Drawing.Point(0, 0);
             this.panelButton_CVS.Name = "panelButton_CVS";
-            this.panelButton_CVS.Size = new System.Drawing.Size(800, 97);
+            this.panelButton_CVS.Size = new System.Drawing.Size(142, 450);
             this.panelButton_CVS.TabIndex = 0;
             // 
             // buttonInfo_CVS
             // 
+            this.buttonInfo_CVS.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonInfo_CVS.Image = ((System.Drawing.Image)(resources.GetObject("buttonInfo_CVS.Image")));
-            this.buttonInfo_CVS.Location = new System.Drawing.Point(697, 12);
+            this.buttonInfo_CVS.Location = new System.Drawing.Point(12, 101);
             this.buttonInfo_CVS.Name = "buttonInfo_CVS";
-            this.buttonInfo_CVS.Size = new System.Drawing.Size(91, 74);
+            this.buttonInfo_CVS.Size = new System.Drawing.Size(114, 71);
             this.buttonInfo_CVS.TabIndex = 0;
-            this.buttonInfo_CVS.UseVisualStyleBackColor = true;
+            this.buttonInfo_CVS.UseVisualStyleBackColor = false;
+            this.buttonInfo_CVS.Click += new System.EventHandler(this.buttonInfo_CVS_Click);
             // 
-            // buttonOpenFile_CVS
+            // buttonMenu_CVS
             // 
-            this.buttonOpenFile_CVS.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_CVS.Image")));
-            this.buttonOpenFile_CVS.Location = new System.Drawing.Point(12, 12);
-            this.buttonOpenFile_CVS.Name = "buttonOpenFile_CVS";
-            this.buttonOpenFile_CVS.Size = new System.Drawing.Size(114, 74);
-            this.buttonOpenFile_CVS.TabIndex = 0;
-            this.buttonOpenFile_CVS.UseVisualStyleBackColor = true;
+            this.buttonMenu_CVS.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonMenu_CVS.Image = ((System.Drawing.Image)(resources.GetObject("buttonMenu_CVS.Image")));
+            this.buttonMenu_CVS.Location = new System.Drawing.Point(12, 12);
+            this.buttonMenu_CVS.Name = "buttonMenu_CVS";
+            this.buttonMenu_CVS.Size = new System.Drawing.Size(114, 74);
+            this.buttonMenu_CVS.TabIndex = 0;
+            this.buttonMenu_CVS.UseVisualStyleBackColor = false;
+            this.buttonMenu_CVS.Click += new System.EventHandler(this.buttonMenu_CVS_Click);
             // 
-            // groupBoxInfo_CVS
+            // pictureBox1
             // 
-            this.groupBoxInfo_CVS.Controls.Add(this.textBoxInputNameDivicion_CVS);
-            this.groupBoxInfo_CVS.Controls.Add(this.textBoxNameDivision_CVS);
-            this.groupBoxInfo_CVS.Location = new System.Drawing.Point(12, 103);
-            this.groupBoxInfo_CVS.Name = "groupBoxInfo_CVS";
-            this.groupBoxInfo_CVS.Size = new System.Drawing.Size(330, 335);
-            this.groupBoxInfo_CVS.TabIndex = 1;
-            this.groupBoxInfo_CVS.TabStop = false;
-            this.groupBoxInfo_CVS.Text = "Данные об отделе";
-            // 
-            // textBoxInputNameDivicion_CVS
-            // 
-            this.textBoxInputNameDivicion_CVS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxInputNameDivicion_CVS.Location = new System.Drawing.Point(7, 52);
-            this.textBoxInputNameDivicion_CVS.Multiline = true;
-            this.textBoxInputNameDivicion_CVS.Name = "textBoxInputNameDivicion_CVS";
-            this.textBoxInputNameDivicion_CVS.Size = new System.Drawing.Size(317, 26);
-            this.textBoxInputNameDivicion_CVS.TabIndex = 1;
-            // 
-            // textBoxNameDivision_CVS
-            // 
-            this.textBoxNameDivision_CVS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNameDivision_CVS.Location = new System.Drawing.Point(7, 26);
-            this.textBoxNameDivision_CVS.Name = "textBoxNameDivision_CVS";
-            this.textBoxNameDivision_CVS.ReadOnly = true;
-            this.textBoxNameDivision_CVS.Size = new System.Drawing.Size(263, 19);
-            this.textBoxNameDivision_CVS.TabIndex = 0;
-            this.textBoxNameDivision_CVS.Text = "Наименование подразделения";
+            this.pictureBox1.BackColor = System.Drawing.Color.PapayaWhip;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(142, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(628, 450);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FormMain_CVS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBoxInfo_CVS);
+            this.ClientSize = new System.Drawing.Size(770, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelButton_CVS);
+            this.MinimumSize = new System.Drawing.Size(792, 506);
             this.Name = "FormMain_CVS";
             this.Text = "Спринт 7 | Task Project | Вариант 11 | Черепанов В.С.";
             this.panelButton_CVS.ResumeLayout(false);
-            this.groupBoxInfo_CVS.ResumeLayout(false);
-            this.groupBoxInfo_CVS.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -118,10 +104,8 @@ namespace Tyuiu.CherepanovVS.Sprint7
 
         private System.Windows.Forms.Panel panelButton_CVS;
         private System.Windows.Forms.Button buttonInfo_CVS;
-        private System.Windows.Forms.Button buttonOpenFile_CVS;
-        private System.Windows.Forms.GroupBox groupBoxInfo_CVS;
-        private System.Windows.Forms.TextBox textBoxInputNameDivicion_CVS;
-        private System.Windows.Forms.TextBox textBoxNameDivision_CVS;
+        private System.Windows.Forms.Button buttonMenu_CVS;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
